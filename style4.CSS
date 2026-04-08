@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(téléchargement.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    width: 420px;
+    border-radius: 20px;
+}
+
+section h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 20PX;
+}
+
+.imput-box {
+    width: 100%;
+    position: relative;
+    margin-bottom: 25PX;
+}
+
+.imput-box input {
+    width: 100%;
+    padding: 15%;
+    border-radius: 25PX;
+    outline: none;
+    background-color: transparent;
+    border: 2PX solid rgba(255, 255, 255, 02);
+    color: #FFF;
+    padding-right: 40px;
+}
+
+.imput-box input::placeholder {
+    color: #FFF;
+}
+
+.remenber-forgot,
+.register-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #FFF;
+    margin-bottom: 25px;
+}
+
+.remenber-forgot a {
+    color: #FFF;
+    text-decoration: none;
+    transition: 0, 5s;
+    font-weight: bold;
+}
+
+.remenber-forgot a:hover {
+    text-decoration: underline;
+}
+
+.login-btm {
+    width: 100%;
+    padding: 15PX;
+    border-radius: 25PX;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0, 5s;
+}
+
+.login-btm:hover,
+.register-link {
+    background-color: transparent;
+    border: 2px solid rgba(red, green, blue, alpha);
+    color: #FFF;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 25px;
+    color: #FFF;
+    font-size: 14px;
+}
