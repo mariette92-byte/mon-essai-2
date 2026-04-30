@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+/* le background du conetnu */
 body {
     background-color: red;
     display: flex;
@@ -15,7 +15,7 @@ body {
     background-position: center;
     background-size: cover;
 }
-
+/* partie centré du code */
 section {
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
@@ -37,7 +37,7 @@ section h1 {
     position: relative;
     margin-bottom: 25PX;
 }
-
+/* rangé le contenu */
 .imput-box input {
     width: 100%;
     padding: 15%;
@@ -85,7 +85,7 @@ section h1 {
     border: 2px solid transparent;
     transition: 0, 5s;
 }
-
+/* survoler le bouton */
 .login-btm:hover,
 .register-link {
     background-color: transparent;
